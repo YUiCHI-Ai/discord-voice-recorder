@@ -1,0 +1,15 @@
+{
+  "prefix": "!",
+  "language": "ja",
+  "recordingFormat": "mp3",
+  "recordingBitrate": 128,
+  "googleDriveFolderId": "",
+  "messageTemplates": {
+    "recordingStart": "録音を開始しました。",
+    "recordingEnd": "録音を終了しました。",
+    "shareLink": "録音ファイルのリンク: {link}"
+  },
+  "autoDeleteLocalFiles": true,
+  "localStoragePath": "./recordings",
+  "logLevel": "info"
+}

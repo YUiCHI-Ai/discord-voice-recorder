@@ -1,0 +1,36 @@
+{
+  "name": "discord-vc-recorder",
+  "version": "1.0.0",
+  "description": "Discord音声チャンネル録音ボット",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "voice",
+    "recording",
+    "google-drive"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.16.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "ffmpeg-static": "^5.1.0",
+    "googleapis": "^118.0.0",
+    "libsodium-wrappers": "^0.7.11",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
